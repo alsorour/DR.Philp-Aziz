@@ -178,7 +178,7 @@ body{
     position: relative;
     left: 2%;
     right: 15%;
-    border-radius: 5%;
+    border-radius: -4%;
     z-index: 9999;
     margin-top: -1px;
     padding: 5%;
@@ -715,7 +715,7 @@ button{
   display: inline-block;
   font-size: 0;
   direction: rtl; /* توجيه النص من اليمين لليسار */
-
+  margin-top: 10px;
 margin-left: 25%;
 }
 .rating input {
@@ -756,21 +756,20 @@ margin-left: 25%;
     position: relative;
     left: 2%;
     right: 15%;
-    border-radius: 5%;
+    border-radius: -4%;
     z-index: 9999;
     margin-top: -1px;
-    padding: 4%;
-    margin-bottom: 25px;
-    padding-bottom: 25px;
+    padding: 5%;
+
 }
 .RATEUS a{
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  margin-left: 30%;
-  color: #ffffff;
+  margin-left: 16%;
+  color: #0e4254;
   
-  text-shadow: 4px 3px 3px #0e4254;
+  text-shadow: 1px 1px 3px #ffffff;
 }
 .DATE{
   background-color: #009dff9e;
@@ -877,3 +876,33 @@ margin-left: 25%;
 .form__input:focus{
   border: 1.5px solid #0e4254;
 }
+
+
+.qr_cc_card {
+  background-color: #0d75b6;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  z-index: 9999999;
+  height: max-content;
+  max-width: 97%;
+  position: relative;
+  left: 2%;
+  right: 15%;
+  border-radius: -4%;
+  z-index: 9999;;
+  padding: 5%;
+  margin-bottom: 20px;
+text-align: center;}
+
+  
+  .qrc_heading_text h2 {
+    color: white;
+    font-size: 28px;
+    margin: 0 0 8px 0;}
+
+    .qrc_heading_text p {
+      font-size: 20px;
+      color: #d1d0d0;;
+      margin: 0;
+      word-break: break-word;
+  }
